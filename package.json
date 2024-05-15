@@ -1,0 +1,19 @@
+{
+    "name": "youtube-downloader",
+    "version": "1.0.0",
+    "description": "A simple YouTube video downloader",
+    "main": "server.js",
+    "scripts": {
+      "start": "node server.js"
+    },
+    "dependencies": {
+      "express": "^4.17.1",
+      "body-parser": "^1.19.0",
+      "ytdl-core": "^4.9.1"
+    },
+    "engines": {
+      "node": ">=14.0.0"
+    },
+    "author": "Your Name",
+    "license": "MIT"
+  }
